@@ -82,6 +82,6 @@ def main():
         print(f'No.{idx+1} / {key_num}')
         tx_hash = mint_bear(private_key)
         print(f"Transaction: https://polygonscan.com/tx/{tx_hash.hex()}")
-        sleep(random.randint(5, 10))
+        sleep(random.randint(20, 40))
 
 main()
